@@ -1,2 +1,3 @@
-# personal-website
-Repo containing my personal website and other projects
+# My Personal Website
+
+This repo contains projects and other miscellaneous work centered around up-skilling and learning new technologies.
