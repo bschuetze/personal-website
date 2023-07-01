@@ -1,5 +1,5 @@
 interface Player {
     name: string,
-    moves: bigint,
+    moves: number,
     availablePieces: TSTPiece[]
 }
