@@ -8,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
 
 export class BoardComponent implements OnInit {
   squares!: string[];
-  xIsNext!: boolean;
+  turn!: string;
   winner!: string;
+
 
   ngOnInit(): void {
     this.newGame();
