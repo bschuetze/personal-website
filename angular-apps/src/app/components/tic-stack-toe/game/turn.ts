@@ -15,7 +15,19 @@ class TSTTurn {
         this.newTurn();
     }
 
+    /**
+     * Checks if selecting a reserve piece is currently a valid move
+     * @returns true if valid, false if not
+     */
     selectReserve(): boolean {
+        return this.state <= TurnState.SELECTED_RESERVE;
+    }
+
+    /**
+     * Checks if selecting a piece on the board (an active piece) is currently a valid move
+     * @returns true if valid, false if not
+     */
+    selectActive(): boolean {
         return this.state <= TurnState.SELECTED_RESERVE;
     }
 
